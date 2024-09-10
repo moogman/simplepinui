@@ -1,0 +1,69 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Container for password entry */
+.password-entry {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increased shadow for better visibility */
+    max-width: 400px; /* Limit the width of the password entry container */
+    width: 100%;
+    text-align: center;
+}
+
+/* Input styles */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size for better readability */
+    box-sizing: border-box;
+}
+
+/* Alert box styles */
+.alert {
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: 14px; /* Better font size for readability */
+}
+
+/* Success alert */
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+/* Error alert */
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* H2 title styling */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Custom focus style for inputs */
+input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
